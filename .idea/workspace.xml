@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7d5b300-e8d1-4ab0-a9c4-d0bcba53bdf5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/calculator/Calculator.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/calculator/Calculator.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/calculator/CalculatorBaseListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/calculator/CalculatorBaseVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/calculator/CalculatorLexer.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/calculator/CalculatorLexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/calculator/CalculatorLexer.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/calculator/CalculatorListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/calculator/CalculatorParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/calculator/CalculatorVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/sql/SqlBase.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/sql/SqlBase.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/sql/SqlBaseBaseListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/sql/SqlBaseBaseVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/sql/SqlBaseLexer.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/sql/SqlBaseLexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/sql/SqlBaseLexer.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/sql/SqlBaseListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/sql/SqlBaseParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/gen/antlr/sql/SqlBaseVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/src/main/java/antlr/calculator/Calculator.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/src/main/java/antlr/calculator/CalculatorDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/src/main/java/antlr/calculator/CalculatorVisitorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/src/main/java/antlr/sql/SqlBase.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/src/main/java/antlr/sql/SqlBaseDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/src/main/java/antlr/sql/SqlBaseVisitorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-antlr/src/main/resources/SqlBaseVisitorGen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/ArraysBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/BitManipulationBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/DequeBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/HashSetBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/ListBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/MathBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/QueueBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/SortedSetBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/StackBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/StringBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/StringBuilderBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/TreeSetBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/basics/WrapperBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/atomic/AtomicIntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/atomic/AtomicIntegerLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/atomic/AtomicIntegerLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/atomic/LongAdderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/basics/DaemonThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/basics/ThreadInterruptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/basics/ThreadJoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/basics/ThreadTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/basics/ThreadTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/callable/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/callable/InvokeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/collection/CollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/counter_demo/Counter3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/counter_demo/NoLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/counter_demo/SimpleLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/fork_join/ArraySumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/future/CompletableFutureDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/future/CompletableFutureDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/future/CompletableFutureDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/future/FutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/lock_read_write/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/lock_reentrant/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/lock_reentrant/WaitNotifyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/lock_stamped/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/synchronized_demo/SynchronizedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_local/InheritableThreadLocalDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_local/InheritableThreadLocalDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_local/InheritableThreadLocalDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_local/ThreadLocalDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_local/ThreadLocalDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_local/ThreadLocalDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_local/ThreadLocalDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_local/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_pool/CachedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_pool/FixedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_pool/ScheduledExecutorDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_pool/ScheduledExecutorDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_pool/ScheduledExecutorDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_pool/ScheduledThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_pool/SerialExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/thread_pool/SingleThreadExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/volatile_demo/VolatileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/concurrent/wait_notify/WaitNotifyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/basics/BasicsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/basics/CollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/basics/InterfaceDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/basics/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/basics/PersonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/basics/PersonDemoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/basics/StringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/files/FilesDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/files/FilesDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/lambda/ConverterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/lambda/LambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/stream/ParallelStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/stream/ParallelStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/stream/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/java/java8/try_catch/TryWithResourcesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/resources/read_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basics/src/main/resources/write_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/avro/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/avro/PersonAvroDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/avro/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/avro/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/avro/person.avro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/avro/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/avro/simple.avro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/hadoop/mapreduce/VerboseWordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/hadoop/mapreduce/VerboseWordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/hadoop/mapreduce/VerboseWordReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/hadoop/rpc/RPCDemoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/hadoop/rpc/RPCDemoProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/hadoop/rpc/RPCDemoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/protobuf/PersonProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/protobuf/PersonProtoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/protobuf/SimpleProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/protobuf/person.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/protobuf/simple.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/s3/CephExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/s3/MinioExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/s3/S3ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/s3/S3CredentialReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/java/zookeeper/DistributedLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/resources/avro/person.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/resources/credentials/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-big-data/src/main/resources/protobuf/person.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/AbstractHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/AbstractMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/AbstractSortedMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/ChainHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/HashMultimap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/Multimap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/ProbeHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/SortedMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/SortedTableMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch10/UnsortedTableMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch11/AVLTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch11/RBTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch11/TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch12/PatternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch14/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch14/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch3/CircularlyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch3/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch3/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/ArrayDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/CircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/LinkedCircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/LinkedDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/LinkedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch6/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch7/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch7/LinkedPositionalList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch7/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch7/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch7/PositionalList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch8/AbstractBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch8/AbstractTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch8/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch8/LinkedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch8/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch9/AbstractPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch9/AdaptablePriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch9/DefaultComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch9/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch9/HeapAdaptablePriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch9/HeapPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch9/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch9/SortedPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/data_structures/ch9/UnsortedPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/BestCandidateNow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/CarSwarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/CompareAfterKeyboardDeletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/CountBinaryTreeNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/CountRemainingTreesAfterDeletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/CyclicIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/DetermineSubtreeGivenNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/FirstInvalidPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/HeapTopK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/KEmptySlots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/LinkedListConsecutiveParts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/ListDifferenceSubstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/ListInnerProductsWithRepeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/LongestLineOnMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/LongestSubarrayAddedUpToZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/LongestSubstringWithSameHeadAndTail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/LongestValuePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/LongestValuePathBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/NextClosestTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/NthInorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/NthInorderInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/NumberPalindromicAddingUntilOverflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/RemoveExtraEdgesOnBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/RemoveForbiddenChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/RepeatedStringMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/SquareSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/StringDividedPatternMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/StringExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/StringNumberPatternMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/SymmetricTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/UniquePathsMore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p1/ValidDecrementalWordDeletingOneByOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p2/CountIpAndMask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p2/NextLargerNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p2/NonOverlappingIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p2/OddEvenArraySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p2/ProtobufEncodeDecode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p2/SubArrWithFixedSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/java/problems/p2/WordsPatternMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/resources/data_structures/bottom_up_heap_construction.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/resources/data_structures/hashing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/resources/data_structures/total_order.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/main/resources/data_structures/tree_traversal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch10/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch12/TestPatternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch3/TestCircularlyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch3/TestDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch3/TestSinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch6/Josephus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch6/StackMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch6/TestCircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch6/TestDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch6/TestQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch6/TestStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structures/src/test/java/data_structures/ch9/PQSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/AbstractFactoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/color/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/color/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/color/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/color/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/color/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/shape/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/abstract_factory/shape/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/BuilderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/item/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/item/ChickenBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/item/Coke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/item/ColdDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/item/Sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/item/VegBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/meal/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/meal/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/packing/Bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/packing/Packing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/builder/packing/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/factory/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/factory/shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/factory/shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/factory/shape/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/prototype/PrototypePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/prototype/ShapeCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/prototype/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/prototype/shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/prototype/shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/prototype/shape/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/singleton/SingletonDCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/singleton/SingletonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/singleton/SingletonHungry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/singleton/SingletonInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/creational/singleton/SingletonLazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/other/producer_consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/other/producer_consumer/DataQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/other/producer_consumer/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/other/producer_consumer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/other/producer_consumer/ProducerConsumerDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/other/producer_consumer/ProducerConsumerDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/other/producer_consumer/ThreadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/other/producer_consumer/demo/AlternateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/other/producer_consumer/demo/AlternateSimpleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-design-pattern/src/main/java/design_pattern/other/producer_consumer/simplified/SimplifiedImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/lib/stdlib-package.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/defense/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/defense/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/defense/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/defense/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/dodge/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/dodge/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/dodge/PlayerBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/dodge/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/snake/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/snake/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/snake/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/snake_auto/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/snake_auto/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/snake_auto/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/space_invader/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/space_invader/AlienB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/space_invader/ArcadeKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/space_invader/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/space_invader/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/space_invader/ISpaceInvador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/space_invader/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-others/src/main/java/games/space_invader/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/charset/FileEncodingGuesser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/conf/ConfParserDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/conf/ConfParserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/exec/ProcessBuilderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/exec/RuntimeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/freemarker/FreeMarkerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/freemarker/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/GsonTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/GsonTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/GsonTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/GsonTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/GsonTest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/GsonTest6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/GsonTest7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/GsonTest8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/GsonTest9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/schema/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/schema/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/schema/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/schema/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/schema/PersonSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/schema/PersonSimpleExpose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/schema/PersonSimpleModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/schema/PersonSimpleVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/schema/PersonWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/gson/schema/PersonWithAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/http_server/HttpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/http_server/RestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/http_server/RestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/io/FileNamesPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/log4j/Log4jDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/lombok_demo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/lombok_demo/BookBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/lombok_demo/BookWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/lombok_demo/Cached.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/lombok_demo/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/lombok_demo/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/lombok_demo/LombokDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/lombok_demo/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/lombok_demo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/net/InetSocketAddressDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/okhttp/YarnHAOkHttpDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/okhttp/YarnXmlReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/practices/compare/CompareDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/practices/compare/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/practices/packages/CheckPackages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/xml/XmlDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/java/xml/XmlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/resources/encoding.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/resources/freemarker/person.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/resources/log4j/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/resources/log4j/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/resources/okhttp/yarn_add_queue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/resources/okhttp/yarn_remove_queue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/resources/okhttp/yarn_stop_queue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-practices/src/main/resources/okhttp/yarn_update_queue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/resources/producer_consumer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/collections/JavaConversionsDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/collections/JavaConvertersDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/concurrent/ExecutorTestJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/concurrent/FutureLoopTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/concurrent/FutureTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/concurrent/ProducerConsumerTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/concurrent/SparkFutureTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/concurrent/SynchronizedTest1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/concurrent/SynchronizedTest2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/concurrent/ThreadTest1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/concurrent/ThreadTest2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/callbyname/DefaultInit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/callbyname/DefaultInit2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/callbyname/Lazy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/currying/Currying.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/data_structures/CaseClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/data_structures/ClassTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/data_structures/Dispatch.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/data_structures/MyList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/data_structures/MyModule.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/data_structures/MyOption.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/data_structures/OptionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/data_structures/OrderedTree.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/data_structures/Singleton.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/data_structures/Subtyping.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/generics/TestGenerics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/generics/TestTree.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/Overloading.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/Overloading2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/Overloading3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/Overloading4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/Overloading5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/OverloadingTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/OverloadingTest2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/OverloadingTest3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/OverloadingTest4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/OverloadingTest5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/OverloadingTest6.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/overloading/OverloadingTest7.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/traits/Coffee.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/traits/Coffee2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/traits/Duck.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/traits/Traits.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/traits/Traits2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/traits/Traits3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/variance/CellCon.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/variance/CellCov.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/variance/Combination.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/variance/Contravariant.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/variance/Covariant.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/variance/ListCon.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/variance/ListCov.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/main/scala/tutorials/variance/QueueCov.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/test/scala/scalatest/basics/ExampleFlatSpec.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/test/scala/scalatest/basics/ExampleFunSuite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/test/scala/scalatest/basics/ExampleTag.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/test/scala/scalatest/fixture/ExampleFixture.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/test/scala/scalatest/fixture/ExampleLoanPattern.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/src/test/scala/scalatest/fixture/ExampleWithFixtureNoArgTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/collections/BreakOutTest.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/enum/EnumBasics.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/list/ListBasics0.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/list/ListBasics1.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/list/ListBasics2.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/list/ListBasics3.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/list/ListBasics4.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/list/ListBasics5.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/list/ListBasics6.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/list/ListBasics7.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/list/ListBasics8.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/list/ListBasics9.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/map/MapBasics0.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/option/OptionBasics.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/regex/RegexBasics.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/scala/Control.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/scala/ControlConstructs.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/scala/Function.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/scala/PatternMatching.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/scala/Underscore.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/scala/Variables.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-basics/worksheet/trait/Mixing.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/resources/spark_sample_read.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/ColumnSplit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/ColumnSplitTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/DataFrame1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/DataFrame2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/DataFrame3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/DataFrame4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/DataFrame5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/DataFrameExtra1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/Dataset1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/Dataset2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/Dataset3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/Dataset4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/Dataset5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/RowTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/Schema.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/SparkSessionTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/UDAFTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/UDFTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/WindowFunction1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark/WindowFunction2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark_miscellaneous/DatasetBatcher.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark_miscellaneous/DatasetBatcherTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark_miscellaneous/RandomDatasetGenerator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark_miscellaneous/SparkForeachTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark_miscellaneous/SparkReaderTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark_streaming/SparkStreaming1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark_streaming/SparkStreaming2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark_streaming/SparkStreaming3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-big-data/src/main/scala/spark_streaming/SparkStreaming4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-practices/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-practices/src/main/scala/gson/GsonJavaTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-practices/src/main/scala/gson/GsonTest1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-practices/src/main/scala/gson/PersonJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-practices/src/main/scala/gson/Schema.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-practices/src/main/scala/json/JsonTest1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-practices/src/main/scala/json/JsonTest2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-practices/src/main/scala/json/JsonTest3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-practices/src/main/scala/json/JsonTest4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-practices/src/main/scala/json/JsonTest5.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2WTyTMTG3j1v9tyJPi1ierq7ag1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5494253",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scala-big-data/src/main/resources" />
+      <recent name="$PROJECT_DIR$/scala-basics/src/main/resources" />
+      <recent name="$PROJECT_DIR$/scala-practices/src/main/scala" />
+      <recent name="$PROJECT_DIR$/scala-big-data/src/main/scala" />
+      <recent name="$PROJECT_DIR$/scala-basics/src/test/scala" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HashSetBasics">
+    <configuration name="DatasetBatcherTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark_miscellaneous.DatasetBatcherTest" />
+      <module name="scala-big-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spark_miscellaneous.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GsonJavaTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gson.GsonJavaTest1" />
+      <module name="scala-practices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GsonTest1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="gson.GsonTest1" />
+      <module name="scala-practices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashSetBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.HashSetBasics" />
+      <module name="java-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="json.JsonTest2" />
+      <module name="scala-practices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HashSetBasics" />
+        <item itemvalue="Application.JsonTest2" />
+        <item itemvalue="Application.GsonJavaTest1" />
+        <item itemvalue="Application.GsonTest1" />
+        <item itemvalue="Application.DatasetBatcherTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7d5b300-e8d1-4ab0-a9c4-d0bcba53bdf5" name="Changes" comment="" />
+      <created>1696770870939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696770870939</updated>
+      <workItem from="1696770872055" duration="2275000" />
+      <workItem from="1696773175326" duration="1154000" />
+      <workItem from="1696774360467" duration="286000" />
+      <workItem from="1696774919347" duration="969000" />
+      <workItem from="1696775892944" duration="1691000" />
+      <workItem from="1696777590591" duration="25000" />
+      <workItem from="1696777617497" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

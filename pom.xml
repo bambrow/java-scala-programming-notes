@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bambrow</groupId>
+    <artifactId>java-scala-programming-notes</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>java-basics</module>
+        <module>java-data-structures</module>
+        <module>java-design-pattern</module>
+        <module>java-others</module>
+        <module>java-antlr</module>
+        <module>java-big-data</module>
+        <module>java-practices</module>
+        <module>scala-basics</module>
+        <module>scala-big-data</module>
+        <module>scala-practices</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <scala.version>2.12.13</scala.version>
+        <scala.major.version>2.12</scala.major.version>
+        <spark.scala.version>2.12</spark.scala.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+</project>
